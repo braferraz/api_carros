@@ -43,5 +43,20 @@ public class CarroController {
 		return _carroRepository.save(carro);
 	}
 	
-	
+	@RequestMapping(value ="/carro/{id}", method = RequestMethod.PUT)
+	public ResponseEntity<Carro> Put(@PathVariable(value="id")long id, @Validated @RequestBody Carro newCarro){
+		Optional<Carro> oldCarro = _carroRepository.findById(id);
+		if(oldCarro.isPresent()) {
+			Carro carro = oldCarro.get();
+			carro.setMarca(newCarro.getMarca());
+			carro.setModelo(newCarro.getModelo());
+			carro.setPlaca(newCarro.getPlaca());
+			carro.setAlugado(newCarro.getAlugado());
+			_carroRepository.save(carro);
+			return new ResponseEntity<Carro>(carro, HttpStatus.OK);
+		}
+		else {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
+	}
 }
