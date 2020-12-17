@@ -20,11 +20,11 @@
 2. Inicie a aplicação pelo STS [Download Aqui](https://spring.io/tools)
 3. Para testar, utilize o Postman [Download aqui, caso não tenha](https://www.postman.com/downloads/)
 
-# GET
+# Get
 ![get](https://user-images.githubusercontent.com/50770601/102553408-8e862380-40a1-11eb-8ed6-b71ded239c03.png)
-# POST
+# Post
 ![post](https://user-images.githubusercontent.com/50770601/102553444-9d6cd600-40a1-11eb-85e3-95a456a5e36e.png)
-# PUT
+# Put
 ![PUT](https://user-images.githubusercontent.com/50770601/102553460-a3fb4d80-40a1-11eb-8521-8c5a56193e13.png)
-# DELETE
+# Delete
 ![Delete](https://user-images.githubusercontent.com/50770601/102553485-aeb5e280-40a1-11eb-857b-5c496ac7162c.png)
