@@ -59,4 +59,16 @@ public class CarroController {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
 	}
+	
+	@RequestMapping(value = "/carro/{id}", method = RequestMethod.DELETE)
+	public ResponseEntity<Object> Delete(@PathVariable(value = "id") long id){
+		Optional<Carro> carro = _carroRepository.findById(id);
+		if(carro.isPresent()) {
+			_carroRepository.delete(carro.get());
+			return new ResponseEntity<>(HttpStatus.OK);
+		}
+		else {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
+	}
 }
