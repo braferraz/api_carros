@@ -3,6 +3,7 @@
 #### API para alguel de carros
 
 ### Tecnologias utilizadas
+- :coffee: **Java** - Linguagem de programação
 - :atom: **Spring Boot** - Facilita a criação de aplicativos baseados em Spring 
 - :basketball: **Postman** - Teste de Api's
 
