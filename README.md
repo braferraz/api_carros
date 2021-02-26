@@ -4,7 +4,7 @@
 
 ### Tecnologias utilizadas
 - :coffee: **Java** - Linguagem de programação
-- :atom: **Spring Boot** - Facilita a criação de aplicativos baseados em Spring 
+- :atom: **Spring Boot** - Framework JAVA
 - :basketball: **Postman** - Teste de Api's
 
 
