@@ -22,7 +22,7 @@
 3. Para testar, utilize o Postman [Download aqui, caso não tenha](https://www.postman.com/downloads/)
 
 # Get
-![get](https://user-images.githubusercontent.com/50770601/102553408-8e862380-40a1-11eb-8ed6-b71ded239c03.png)
+![get](https://user-images.githubusercontent.com/50770601/109237404-37db4b00-77b0-11eb-9040-7187c39793c7.png)
 # Post
 ![post](https://user-images.githubusercontent.com/50770601/102553444-9d6cd600-40a1-11eb-85e3-95a456a5e36e.png)
 # Put
